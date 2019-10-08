@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-1 .col-3{
+    width: 275px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+.col-2{
+    height: 200px;
+}
+
+.home{
+    border: solid 0.3px #e6ecf0;
+    position: sticky;
+}
+
+.home b{
+    font-size: 20px;
+}
