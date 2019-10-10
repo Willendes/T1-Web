@@ -10,25 +10,27 @@
 
 .col-1,
 .col-3{
-    width: 500px;
-    height: 200px;
+    width: 246px;
 }
 
 .col-1{
-    margin-left: 150px;
+    position: fixed;
+    padding-left: 150px;
 }
 
 .col-2{
-    width: auto;
-    height: 200px;
+    margin-left: 395px;
+    width: 600px;
 }
 
 .t-border{
-    border: solid 0.3px #e6ecf0;
+    border-right: solid 0.3px #e6ecf0;
+    border-bottom: solid 0.3px #e6ecf0;
+    border-left: solid 0.3px #e6ecf0;
 }
 
 .items{
-    margin-bottom: 6px;
+    margin-bottom: 0px;
 }
 
 .first-item{
@@ -56,21 +58,34 @@
 
 .home{
     top: 0;
+    position: fixed;
+    width: 600px;
+    height: 55px;
+    background-color: white;
+}
+
+.home img{
+    
 }
 
 .home p{
     margin-left: 14px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
 }
 
+.publish{
+    margin-top: 47px;
+    height: 120px;
+    border-bottom: solid 10px #e6ecf0;
+}
+
 .img-div{
-    flex: left;
-    margin: 8px 10px 0 5px;
+    margin: 8px 10px 0 14px;
 }
 
 .img-div img{
-    width: 60px;
+    width: 48px;
     border-radius: 45px;
 }
 
@@ -91,8 +106,8 @@ textarea{
     margin: 7px 20px 7px 0;
 }
 
-.p-buttons button{
-    border-radius: 45px;
+.p-buttons p{
+    color: #85939f;
 }
 
 .txt-profile p{
