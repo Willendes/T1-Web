@@ -23,7 +23,7 @@
 }
 
 .col-3{
-    width: 32%;
+    width: 30%;
 }
 
 .t-border{
@@ -244,28 +244,32 @@ textarea{
 }
 
 .form-container input{
+    margin-top: 5px;
     border: none;
     padding: 16px 20px 16px 60px;
     border-radius: 40px;
     background-color: #e6ecf0;
-    width: 100%;
+    width: 60%;
 }
 
 .form-icon {
     position: absolute;
-    top: 7px;
+    top: 15px;
     left: 14px;
     opacity: 0.5;
+    width: 20px;
 }
 
 .column-rigth {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 32px;
 }
+
 
 .trends {
     background-color:#f5f8fa;
     border-radius: 25px;
-    margin-top: 16px;    
+    margin-top: 16px; 
+    width: 78%;   
 }
 
 .trends .trends-titulo {
@@ -281,13 +285,12 @@ textarea{
     border-bottom: 1px solid #e6ecf0;
 }
 
-.hashtag {
-    font-weight: bold;
+.trend-last{
+    padding: 16px 16px 16px 16px;
 }
 
-.show {
-    padding: 16px 16px 16px 16px;
-    color: #1da1f2
+.hashtag {
+    font-weight: bold;
 }
 
 .follow-titulo {
