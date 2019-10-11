@@ -10,17 +10,16 @@
 
 .col-1,
 .col-3{
-    width: 246px;
+    width: 30%;
 }
 
 .col-1{
     position: fixed;
-    padding-left: 150px;
 }
 
 .col-2{
     margin-left: 395px;
-    width: 600px;
+    width: 40%;
 }
 
 .t-border{
@@ -29,8 +28,15 @@
     border-left: solid 0.3px #e6ecf0;
 }
 
+.twitter-icon{
+    margin-left: 150px;
+}
+
 .items{
+    margin-left: 150px;
     margin-bottom: 0px;
+    border-radius: 45px;
+    width: auto;
 }
 
 .first-item{
@@ -49,6 +55,11 @@
     font-weight: 700;
 }
 
+.items:hover{
+    background-color: #e8f5fe;
+
+}
+
 .profile img{
     margin-top: 10px;
     width: 32px;
@@ -65,7 +76,8 @@
 }
 
 .home img{
-    
+    float: right;
+    margin-right: 18px;
 }
 
 .home p{
@@ -79,6 +91,8 @@
     height: 120px;
     border-bottom: solid 10px #e6ecf0;
 }
+
+
 
 .img-div{
     margin: 8px 10px 0 14px;
@@ -97,17 +111,13 @@ textarea{
     margin: 8px 0 8px 0;
 }
 
-.p-buttons{
+.publish-btn{
     align-items: center;
 }
 
-.p-buttons img{
+.publish-btn img{
     width: 22px;
     margin: 7px 20px 7px 0;
-}
-
-.p-buttons p{
-    color: #85939f;
 }
 
 .txt-profile p{
@@ -120,7 +130,49 @@ textarea{
     margin: 14px 0 14px 6px;
 }
 
+
+.txt-profile img{
+    width: 15px;
+}
+
+.txt-publication{
+    margin-top: -10px;
+}
+
 .txt-publication p{
     margin: 0 0 8px 6px;
     max-width: 95%;
+}
+
+.txt-publication img{
+    width: 97%;
+}
+
+.txt-publication video{
+    width: 97%;
+    border-radius: 16px;
+}
+
+.txt-publication span{
+    color: #289be2;
+}
+
+.gif img{
+    border-radius: 16px;
+    width: 97%;
+}
+
+.publication-btn{
+    margin-bottom: 10px;
+}
+
+.publication-btn img{
+    width: 18px;
+    margin: 7px 20px 7px 0;
+}
+
+.publication-btn p{
+    color: #85939f;
+    font-size: 15px;
+    margin: 8px 65px 0 -9px;
 }
