@@ -76,7 +76,7 @@
 
 .items:hover{
     background-color: #e8f5fe;
-    color: #1d96e0
+    color: #1d96e0;
 }
 
 .profile img{
@@ -85,8 +85,20 @@
     border-radius: 45px;
 }
 
+.tweet-btn{
+    background-color: #289be2;
+    height: 38px;
+    padding: 6px 0 6px 12px;
+    margin-bottom: 10px;
+    border-radius: 45px;
+    width: 80%;
+}
+
 .tweet-btn p{
-    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0 0 70px;
 }
 
 /* ----------- ----------- ----------- Coluna 2 ----------- ----------- ----------- */
@@ -132,6 +144,7 @@ textarea{
     overflow: hidden;
     width: 100%;
     border: white;
+    outline: none;
     margin-top: 20px;
 }
 
@@ -142,6 +155,19 @@ textarea{
 .publish-btn img{
     width: 22px;
     margin: 7px 20px 7px 0;
+}
+
+.tweet{
+    background-color: #8ed0f9;
+    width: 60px;
+    height: 26px;
+    padding: 6px 0 6px 12px;
+    margin-left: 260px;
+    border-radius: 45px;
+}
+
+.tweet b{
+    color: white;
 }
 
 .txt-profile p{
@@ -156,7 +182,14 @@ textarea{
 
 
 .txt-profile img{
+    margin-left: 4px;
+    padding-bottom: 4px;
     width: 15px;
+}
+
+.show{ 
+    padding-top: 10px;
+    float: right;
 }
 
 .txt-publication{
@@ -175,6 +208,7 @@ textarea{
 .txt-publication video{
     width: 97%;
     border-radius: 16px;
+    outline: none;
 }
 
 .txt-publication span{
