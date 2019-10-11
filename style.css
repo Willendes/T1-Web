@@ -10,7 +10,7 @@
 
 .col-1,
 .col-3{
-    width: 246px;
+    width: 35%;
 }
 
 .col-1{
@@ -20,7 +20,7 @@
 
 .col-2{
     margin-left: 395px;
-    width: 600px;
+    width: 30%;
 }
 
 .t-border{
@@ -123,4 +123,25 @@ textarea{
 .txt-publication p{
     margin: 0 0 8px 6px;
     max-width: 95%;
+}
+
+.search {
+    background-color: #f5f8fa;
+    border-radius: 45px;
+}
+
+.search textarea {
+    background-color: #f5f8fa;
+}
+
+.trend {
+    background-color: #f5f8fa;
+}
+
+
+.trend b{
+    margin-left: 14px;
+    font-size: 18px;
+    font-weight: 900;
+    margin-right: 50px;
 }
